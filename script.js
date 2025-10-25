@@ -23,7 +23,12 @@ function calculateAndDisplay(fn) {
   const b = Number(rawB);
   document.getElementById('result').textContent = fn(a, b);
 }
+<<<<<<< HEAD
 
+=======
+//Cgange4
+
+>>>>>>> bc5f92e... Change5
 document.getElementById('btn-add')
   .addEventListener('click', () => calculateAndDisplay(add));
 
